@@ -7,7 +7,7 @@ actor Token {
 
   let owner : Principal = Principal.fromText("piq3p-eg4pz-bvdqx-h72eu-by3gt-epzkq-bm5go-7y4ei-ryfzi-7t3xj-dae");
   let totalSupply : Nat = 1000000000;
-  let symbol : Text = "DANG";
+  let symbol : Text = "DSJ";
 
   private stable var balanceEntries : [(Principal, Nat)] = [];
   private var balances = HashMap.HashMap<Principal, Nat>(1, Principal.equal, Principal.hash);

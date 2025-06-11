@@ -3,7 +3,7 @@ import { token_backend, canisterId, createActor } from "../../../declarations/to
 
 function Faucet(props) {
   const [isDisabled, setDisable] = useState(false);
-  const [buttonText, setText] = useState("Gimme gimme");
+  const [buttonText, setText] = useState("Claim Tokens");
 
   async function handleClick(event) {
     setDisable(true);
@@ -21,7 +21,7 @@ function Faucet(props) {
         Faucet
       </h2>
       <label>
-        Get your free DAngela tokens here! Claim 10,000 DANG tokens to 2vxsx-fae
+        Get your free DShub tokens here! Claim 10,000 DSJ tokens to 2vxsx-fae
       </label>
       <p className="trade-buttons">
         <button id="btn-payout" onClick={handleClick} disabled={isDisabled}>
