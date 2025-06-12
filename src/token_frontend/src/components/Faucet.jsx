@@ -21,7 +21,7 @@ function Faucet(props) {
         Faucet
       </h2>
       <label>
-        Get your free DShub tokens here! Claim 10,000 DSJ tokens to 2vxsx-fae
+        Get your free DShub tokens here! Claim 10,000 DSJ tokens
       </label>
       <p className="trade-buttons">
         <button id="btn-payout" onClick={handleClick} disabled={isDisabled}>
