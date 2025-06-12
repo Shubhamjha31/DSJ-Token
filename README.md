@@ -60,7 +60,6 @@ dfx canister call token_backend <method_name>
 
 📡 Token economy simulation without external auth
 
-📸 Screenshots (Coming Soon)
 🤝 Contributing
 Contributions, suggestions, and improvements are welcome!
 Feel free to fork this repo, raise issues, or create pull requests.
