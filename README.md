@@ -64,9 +64,7 @@ dfx canister call token_backend <method_name>
 Contributions, suggestions, and improvements are welcome!
 Feel free to fork this repo, raise issues, or create pull requests.
 
-📜 License
-This project is licensed under the MIT License.
-
 👨‍💻 Author
 Shubham Jha
-LinkedIn • GitHub
+Linkedin: www.linkedin.com/in/shubham-jha3107
+
